@@ -1,0 +1,17 @@
+name: DNAzymeEnrichment
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - seaborn
+  - matplotlib
+  - jupyter
+  - cutadapt
+  - pear
+  - fastqc
+  - fastx_toolkit
+  - seqtk

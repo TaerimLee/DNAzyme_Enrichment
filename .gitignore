@@ -1,0 +1,35 @@
+# Large input files
+*.fastq.gz
+*fastq
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Project-specific generated content
+data/**/*.fastq.gz
+data/**/*.fastq
+results/**/*.fastq
+*.merged.final.txt
+log/
+script/tmp/
+
+# Keep generated QC artifacts out of version control
+**/QC/
