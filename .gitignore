@@ -28,6 +28,7 @@ data/**/*.fastq.gz
 data/**/*.fastq
 results/**/*.fastq
 *.merged.final.txt
-log/*
+log/
 script/tmp/
+
 
