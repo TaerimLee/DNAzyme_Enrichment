@@ -17,7 +17,7 @@ Large raw sequencing data and outputs are intentionally excluded from Git tracki
 - `log/`: run logs
 - `environment.yml`: reproducible conda environment
 
-## Data Assumptions
+## Input Data
 
 The shell workflow expects this input structure:
 - aKG
