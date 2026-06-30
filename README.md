@@ -20,20 +20,20 @@ Large raw sequencing data and outputs are intentionally excluded from Git tracki
 ## Data Assumptions
 
 The shell workflow expects this input structure:
-aKG
-- `data/aKG/aKG18_L001/aKG18_S6_L001_R1_001.fastq.gz`
-- `data/aKG/aKG18_L001/aKG18_S6_L001_R2_001.fastq.gz`
-- `data/aKG/aKG19_L001/aKG19_S7_L001_R1_001.fastq.gz`
-- `data/aKG/aKG19_L001/aKG19_S7_L001_R2_001.fastq.gz`
-- `data/aKG/aKG21_L001/aKG21_S8_L001_R1_001.fastq.gz`
-- `data/aKG/aKG21_L001/aKG21_S8_L001_R2_001.fastq.gz`
-nKG
-- `data/nKG/nKG19_L001/nKG19_S9_L001_R1_001.fastq.gz`
-- `data/nKG/nKG19_L001/nKG19_S9_L001_R2_001.fastq.gz`
-- `data/nKG/nKG20_L001/nKG20_S10_L001_R1_001.fastq.gz`
-- `data/nKG/nKG20_L001/nKG20_S10_L001_R2_001.fastq.gz`
-- `data/nKG/nKG22_L001/nKG22_S11_L001_R1_001.fastq.gz`
-- `data/nKG/nKG22_L001/nKG22_S11_L001_R2_001.fastq.gz`
+- aKG
+  - `data/aKG/aKG18_L001/aKG18_S6_L001_R1_001.fastq.gz`
+  - `data/aKG/aKG18_L001/aKG18_S6_L001_R2_001.fastq.gz`
+  - `data/aKG/aKG19_L001/aKG19_S7_L001_R1_001.fastq.gz`
+  - `data/aKG/aKG19_L001/aKG19_S7_L001_R2_001.fastq.gz`
+  - `data/aKG/aKG21_L001/aKG21_S8_L001_R1_001.fastq.gz`
+  - `data/aKG/aKG21_L001/aKG21_S8_L001_R2_001.fastq.gz`
+- nKG
+  - `data/nKG/nKG19_L001/nKG19_S9_L001_R1_001.fastq.gz`
+  - `data/nKG/nKG19_L001/nKG19_S9_L001_R2_001.fastq.gz`
+  - `data/nKG/nKG20_L001/nKG20_S10_L001_R1_001.fastq.gz`
+  - `data/nKG/nKG20_L001/nKG20_S10_L001_R2_001.fastq.gz`
+  - `data/nKG/nKG22_L001/nKG22_S11_L001_R1_001.fastq.gz`
+  - `data/nKG/nKG22_L001/nKG22_S11_L001_R2_001.fastq.gz`
 
 Naming convention expected by `bash_per.sh`:
 - paired files include `R1_001.fastq.gz` and `R2_001.fastq.gz`
